@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  html,body{margin:0;padding:0;}
+  #page{position:relative;width:1254px;height:1254px;overflow:hidden;
+        font-family:Arial,Helvetica,sans-serif;}
+  .t{position:absolute;line-height:1;white-space:nowrap;margin:0;}
+</style>
+</head>
+<body>
+<div id="page" data-document-role="page" data-label="Radar Healthcare ad">
+
+  <!-- Background graphics: gradient, glow, faint radar rings, logo mark -->
+  <svg width="1254" height="1254" viewBox="0 0 1254 1254"
+       style="position:absolute;top:0;left:0;" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#26155C"/>
+        <stop offset="40%" stop-color="#3E1D5E"/>
+        <stop offset="68%" stop-color="#8E2E69"/>
+        <stop offset="88%" stop-color="#CC3F70"/>
+        <stop offset="100%" stop-color="#E74772"/>
+      </linearGradient>
+      <radialGradient id="glow" cx="80%" cy="82%" r="62%">
+        <stop offset="0%" stop-color="#F2607F" stop-opacity="0.40"/>
+        <stop offset="60%" stop-color="#F0567E" stop-opacity="0.12"/>
+        <stop offset="100%" stop-color="#F0567E" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="logoMark" x1="0%" y1="100%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#2E9CC4"/>
+        <stop offset="100%" stop-color="#3FB9D6"/>
+      </linearGradient>
+    </defs>
+    <rect width="1254" height="1254" fill="url(#bg)"/>
+    <rect width="1254" height="1254" fill="url(#glow)"/>
+    <g fill="none" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="2">
+      <circle cx="1135" cy="995" r="150"/>
+      <circle cx="1135" cy="995" r="295"/>
+      <circle cx="1135" cy="995" r="445"/>
+      <circle cx="1135" cy="995" r="600"/>
+      <circle cx="1135" cy="995" r="760"/>
+    </g>
+    <g transform="translate(108 142)" fill="none" stroke="url(#logoMark)" stroke-linecap="round">
+      <path d="M -34 16 A 38 38 0 1 1 30 24" stroke-width="7"/>
+      <path d="M -22 14 A 25 25 0 1 1 20 18" stroke-width="6.5"/>
+      <path d="M -11 11 A 13 13 0 1 1 11 9" stroke-width="6"/>
+    </g>
+    <circle cx="108" cy="142" r="6.5" fill="#2E9CC4"/>
+  </svg>
+
+  <!-- Editable text layers -->
+  <p class="t" style="left:160px;top:69px;font-size:62px;font-weight:700;color:#FFFFFF;letter-spacing:-1px;">radar</p>
+  <p class="t" style="left:161px;top:134px;font-size:40px;font-weight:400;color:#2E9CC4;letter-spacing:2px;">healthcare</p>
+
+  <p class="t" style="left:138px;top:290px;font-size:72px;font-weight:700;color:#FFFFFF;">Nearly</p>
+  <p class="t" style="left:128px;top:339px;font-size:290px;font-weight:800;color:#FFFFFF;letter-spacing:-6px;">&pound;460m</p>
+  <p class="t" style="left:138px;top:643px;font-size:50px;font-weight:700;color:#FFFFFF;">paid in consent-related</p>
+  <p class="t" style="left:138px;top:711px;font-size:50px;font-weight:700;color:#FFFFFF;">healthcare claims between 2019-2025*</p>
+
+  <!-- Amber divider -->
+  <div style="position:absolute;left:136px;top:813px;width:164px;height:6px;border-radius:3px;background:#F5B82E;"></div>
+
+  <p class="t" style="left:138px;top:872px;font-size:44px;font-weight:400;color:#EDE7F2;">Discover how Digital Consent</p>
+  <p class="t" style="left:138px;top:930px;font-size:44px;font-weight:400;color:#EDE7F2;">reduces governance risk</p>
+
+  <!-- Pill CTA button -->
+  <div style="position:absolute;left:128px;top:995px;width:463px;height:121px;border-radius:60px;background:#F5B82E;"></div>
+  <p class="t" style="left:185px;top:1035px;font-size:42px;font-weight:700;color:#272839;">Book a Demo</p>
+  <svg width="80" height="60" viewBox="0 0 80 60" style="position:absolute;left:470px;top:1025px;">
+    <g stroke="#272839" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <line x1="8" y1="30" x2="64" y2="30"/>
+      <polyline points="45,13 64,30 45,47"/>
+    </g>
+  </svg>
+
+  <p class="t" style="left:138px;top:1179px;font-size:26px;font-weight:400;color:#EDE7F2;"><b>*Source:</b> NHS Resolution Annual Reports 2019/20 - 2024/25</p>
+
+</div>
+</body>
+</html>
