@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1254" height="1254" viewBox="0 0 1254 1254" font-family="Arial, Helvetica, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1254" height="1254" viewBox="0 0 1254 1254">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#26155C"/>
@@ -28,28 +28,32 @@
   </g>
 
   <!-- Logo mark: concentric radar arcs spiralling into a small hook -->
-  <g transform="translate(108 142)" fill="none" stroke="url(#logoMark)" stroke-linecap="round">
-    <path d="M -34 16 A 38 38 0 1 1 30 24" stroke-width="7"/>
-    <path d="M -22 14 A 25 25 0 1 1 20 18" stroke-width="6.5"/>
-    <path d="M -11 11 A 13 13 0 1 1 11 9" stroke-width="6"/>
+  <g transform="translate(110 141)" fill="none" stroke="url(#logoMark)" stroke-linecap="round">
+    <path d="M -40 19 A 45 45 0 1 1 35 28" stroke-width="8"/>
+    <path d="M -26 16 A 29 29 0 1 1 23 21" stroke-width="7"/>
+    <path d="M -13 13 A 15 15 0 1 1 13 11" stroke-width="6.5"/>
   </g>
-  <circle cx="108" cy="142" r="6.5" fill="#2E9CC4"/>
+  <circle cx="110" cy="141" r="7.5" fill="#2E9CC4"/>
 
-  <text x="160" y="125" font-size="62" font-weight="700" fill="#FFFFFF" letter-spacing="-1">radar</text>
-  <text x="161" y="170" font-size="40" font-weight="400" fill="#2E9CC4" letter-spacing="2">healthcare</text>
+  <text x="172" y="130" font-family="MontBold" font-size="68" fill="#FFFFFF" letter-spacing="-1">radar</text>
+  <text x="174" y="176" font-family="MontMed" font-size="40" fill="#2E9CC4" letter-spacing="2">healthcare</text>
 
-  <text x="138" y="355" font-size="72" font-weight="700" fill="#FFFFFF">Nearly</text>
-  <text x="128" y="600" font-size="290" font-weight="800" fill="#FFFFFF" letter-spacing="-6">£460m</text>
-  <text x="138" y="688" font-size="50" font-weight="700" fill="#FFFFFF">paid in consent-related</text>
-  <text x="138" y="756" font-size="50" font-weight="700" fill="#FFFFFF">healthcare claims between 2019-2025*</text>
-  <rect x="136" y="813" width="164" height="6" rx="3" fill="#F5B82E"/>
-  <text x="138" y="912" font-size="44" font-weight="400" fill="#EDE7F2">Discover how Digital Consent</text>
-  <text x="138" y="970" font-size="44" font-weight="400" fill="#EDE7F2">reduces governance risk</text>
-  <rect x="128" y="995" width="463" height="121" rx="60" fill="#F5B82E"/>
-  <text x="185" y="1073" font-size="42" font-weight="700" fill="#272839">Book a Demo</text>
+  <text x="138" y="352" font-family="MontBold" font-size="72" fill="#FFFFFF">Nearly</text>
+  <text x="132" y="598" font-family="MontXBold" font-size="280" fill="#FFFFFF" letter-spacing="-6">&#163;460m</text>
+  <text x="138" y="688" font-family="MontBold" font-size="50" fill="#FFFFFF">paid in consent-related</text>
+  <text x="138" y="752" font-family="MontBold" font-size="50" fill="#FFFFFF">healthcare claims between 2019-2025*</text>
+
+  <rect x="138" y="808" width="150" height="6" rx="3" fill="#F5B82E"/>
+
+  <text x="138" y="905" font-family="MontReg" font-size="44" fill="#EDE7F2">Discover how Digital Consent</text>
+  <text x="138" y="963" font-family="MontReg" font-size="44" fill="#EDE7F2">reduces governance risk</text>
+
+  <rect x="128" y="995" width="463" height="121" rx="60.5" fill="#F5B82E"/>
+  <text x="182" y="1070" font-family="MontBold" font-size="42" fill="#272839">Book a Demo</text>
   <g stroke="#272839" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none">
-    <line x1="478" y1="1055" x2="534" y2="1055"/>
-    <polyline points="515,1038 534,1055 515,1072"/>
+    <line x1="489" y1="1055" x2="537" y2="1055"/>
+    <polyline points="519,1039 537,1055 519,1071"/>
   </g>
-  <text x="138" y="1202" font-size="26" fill="#EDE7F2"><tspan font-weight="700">*Source:</tspan> NHS Resolution Annual Reports 2019/20 - 2024/25</text>
+
+  <text x="138" y="1200" font-family="MontReg" font-size="26" fill="#EDE7F2"><tspan font-family="MontBold">*Source:</tspan> NHS Resolution Annual Reports 2019/20 - 2024/25</text>
 </svg>
